@@ -1,0 +1,27 @@
+.removeBtn{
+    border-radius: 15px;
+    padding: 8px 13px;
+}
+.removeBtn.light{
+    background-color: hsl(200, 60%, 99%);
+    border: solid 1px hsl(217, 61%, 90%);
+    color: hsl(226, 25%, 17%);
+}
+.removeBtn.dark{
+    background-color: hsl(226, 25%, 17%);
+    border: solid 1px hsl(226, 11%, 37%);
+}
+.removeBtn.dark:hover{
+    background-color: hsl(226, 11%, 37%);
+}
+.removeBtn.light:hover{
+    background-color: hsl(0, 0%, 93%);
+}
+.removeBtn.dark:focus{
+    background-color: hsl(3, 86%, 64%);
+    color: hsl(227, 75%, 14%);
+}
+.removeBtn.light:focus{
+    background-color: hsl(3, 77%, 44%);
+    color: hsl(0, 0%, 93%);
+}

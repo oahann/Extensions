@@ -1,0 +1,42 @@
+.wrapperCard{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.wrapperCard.light{
+    background-color: hsl(200, 60%, 99%);
+    border: solid 1px hsl(217, 61%, 90%);
+}
+.wrapperCard.dark{
+    background-color: hsl(226, 25%, 17%);
+    border: solid 1px hsl(226, 11%, 37%);
+}
+.wrapperImgnDesc{
+    display: flex;
+}
+.wrapperDesc{
+    margin-left: 20px;
+}
+.wrapperBtn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.itemName{
+    font-size: 18px;
+}
+.itemName.light{
+    color: hsl(226, 25%, 17%);
+}
+.description{
+    margin-top: 10px;
+}
+.description.dark{
+    color: hsl(217, 61%, 90%);
+}
+.description.light{
+    color: hsl(225, 23%, 24%);
+}
+

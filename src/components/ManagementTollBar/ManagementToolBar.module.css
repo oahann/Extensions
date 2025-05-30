@@ -1,0 +1,21 @@
+.wrapperToolBar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.wrapperBtn{
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width: 376px){
+    .wrapperToolBar{
+        flex-direction: column;
+        margin-top: 30px;
+        align-items: center;
+    }
+
+    .wrapperBtn{
+        margin-top: 15px;
+    }
+}

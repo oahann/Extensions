@@ -1,0 +1,62 @@
+.toggleSwitch {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .toggleInput {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .toggleSlider {
+    position: relative;
+    width: 48px;
+    height: 24px;
+    border-radius: 24px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggleSlider.dark.inactive {
+    background-color: #64748b;
+  }
+  .toggleSlider.light.inactive {
+    background-color: hsl(0, 0%, 93%);
+  }
+  .toggleSlider.dark.active {
+    background-color:  hsl(3, 86%, 64%);
+  }
+  .toggleSlider.light.active {
+    background-color:  hsl(3, 77%, 44%);
+  }
+  
+  .toggleCircle {
+    position: absolute;
+    top: 2px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    transition: left 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .toggleCircle.inactive {
+    left: 2px;
+  }
+  
+  .toggleCircle.active {
+    left: 26px;
+  }
+  
+  .toggleSlider.dark:hover.inactive {
+    background-color: #7e8a9a;
+  }
+  .toggleSlider.light:hover.inactive {
+    background-color: hsl(217, 61%, 90%);
+  }
+  .toggleSlider:hover.active {
+    background-color: #ef4444;
+  }
+  

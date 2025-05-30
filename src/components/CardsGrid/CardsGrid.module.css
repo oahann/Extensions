@@ -1,0 +1,13 @@
+.wrapperGridCards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    max-width: 1440px;
+    margin: 20px auto;
+}
+
+@media screen and (max-width: 376px){
+    .wrapperGridCards{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        max-width: 375px;
+    }
+}

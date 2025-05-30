@@ -1,0 +1,33 @@
+.wrapperNav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.wrapperNav.dark{
+    background-color:hsl(226, 25%, 17%);
+}
+
+.wrapperNav.light{
+    background-color:hsl(200, 60%, 99%);
+}
+.btnThemeSwitcher{
+    border-radius: 10px;
+    padding: 10px 10px 6px 10px;
+    border: 0px;
+}
+.light{
+   background-color: hsl(0, 0%, 93%)
+}
+
+.dark{
+    background-color: hsl(225, 23%, 24%);
+}
+.btnThemeSwitcher.dark:hover{
+    background-color: hsl(226, 11%, 37%);
+}
+
+.btnThemeSwitcher.light:hover{
+    background-color: hsl(0, 0%, 78%);
+}

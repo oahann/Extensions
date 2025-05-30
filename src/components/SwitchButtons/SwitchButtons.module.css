@@ -1,0 +1,27 @@
+.SwitchBth{
+    border-radius: 18px;
+    border: 0;
+    padding: 10px 18px;
+}
+.light{
+    color: hsl(227, 75%, 14%);
+    background-color: hsl(200, 60%, 99%);
+}
+.dark{
+    background-color: hsl(225, 23%, 24%);
+    color: white;
+}
+.SwitchBth.dark:hover{
+    background-color: hsl(226, 11%, 37%);
+}
+.SwitchBth.light:hover{
+    background-color: hsl(0, 0%, 93%);
+}
+.SwitchBth.dark:focus{
+    background-color: hsl(3, 86%, 64%);
+    color: hsl(227, 75%, 14%);
+}
+.SwitchBth.light:focus{
+    background-color: hsl(3, 77%, 44%);
+    color: hsl(200, 60%, 99%);
+}
