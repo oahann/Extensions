@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/oahann/Extensions.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub URL](https://github.com/oahann/Extensions.git)
+- Live Site URL: [Site URL](extensions-kappa.vercel.app)
 
 ## My process
 
